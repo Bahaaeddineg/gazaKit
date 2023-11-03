@@ -1,4 +1,9 @@
 # gazaKit
+to get the server starting you should do this commands 
+
+cd backend //to go to the backend folder where the server.js is there
+npm install // install the dependencies listed in the package.json
+npx nodemon server.js // this will run the server and keep compiling the node files 
 GET requests endpoint 
 you can check the Model folder to know the structure of each object (pay attention to the uppercase letters to avoid errors)
 each one of these endpoints requests will return a promise of array of object 
