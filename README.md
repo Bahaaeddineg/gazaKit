@@ -17,10 +17,12 @@ http://localhost:4000/api/getAccounts : the accounts of the content creators tha
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
+POST request
 
-
-http://localhost:4000/api/Contribute : 
+http://localhost:4000/api/Contribute : this an endpoint that lets a user contribute with us an account that isn't listed in our app (it can have an error if it founds that the account exist in our db ) while there is no error it will be stored in a prototype collection where we can access the url given by the user if its a real account that support palastine or no (this step will be done manually until we complete the model taht can identify the account is talking about palastine or not ) 
 
 {
     "content":"https://www.instagram.com/palestinianyouthmovement/"
 }
+
+the user should give a url and the request body will be like the given one (please respect the lowercase chars )
