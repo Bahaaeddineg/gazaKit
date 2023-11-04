@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gazakit/src/features/Instructions/instructions.dart';
 import 'package:gazakit/src/features/boycott/boycott.dart';
+import 'package:gazakit/src/features/boycott/boycottt.dart';
 import 'package:gazakit/src/features/duaa/duaa.dart';
 import 'package:gazakit/src/features/encoding/encoding.dart';
 import 'package:gazakit/src/features/socialMediaAccounts.dart/socialMediaAccounts.dart';
@@ -32,7 +33,7 @@ class AppRoutes {
       case AppRoutes.layout:
         return MaterialPageRoute(builder: (context) => const Layout());
       case AppRoutes.boycott:
-        return MaterialPageRoute(builder: (context) => const Boycott());
+        return MaterialPageRoute(builder: (context) => const BotcottPage());
       case AppRoutes.social:
         return MaterialPageRoute(builder: (context) => const SocialMedia());
         case AppRoutes.comments:
