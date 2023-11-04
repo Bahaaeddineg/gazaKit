@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gazakit/src/utils/theme.dart';
 
 import 'src/utils/routes.dart';
 void main(){
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: AppTheme.light(),
       title: "GazaKit",
       onGenerateRoute: routes.onGenerateRoute,
     );
