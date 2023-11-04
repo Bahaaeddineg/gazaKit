@@ -18,18 +18,19 @@ class AppTheme {
   };
 
   static TextTheme lightTextTheme = const TextTheme(
-      bodySmall: TextStyle(
-        color: Colors.grey,
-        fontSize: 8,
-        fontWeight: FontWeight.bold,
-      ),
-      bodyLarge: TextStyle(
-          fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white),
-      bodyMedium: TextStyle(
-        fontSize: 22,
-        fontWeight: FontWeight.w500,
-        color: Colors.white,
-      ));
+    bodySmall: TextStyle(
+      color: Colors.grey,
+      fontSize: 8,
+      fontWeight: FontWeight.bold,
+    ),
+    bodyLarge: TextStyle(
+        fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white),
+    bodyMedium: TextStyle(
+      fontSize: 22,
+      fontWeight: FontWeight.w500,
+      color: Colors.white,
+    ),
+  );
 
   // static ThemeData dark() {
   //   return ThemeData(
@@ -67,9 +68,10 @@ class AppTheme {
 
   static ThemeData light() {
     return ThemeData(
+      
       brightness: Brightness.light,
       useMaterial3: false,
-      fontFamily: "",
+      fontFamily: "product_sans",
       textTheme: AppTheme.lightTextTheme,
       primaryColor: AppColors.kPrimaryColor,
       shadowColor: Colors.black.withOpacity(0.05),
@@ -81,7 +83,6 @@ class AppTheme {
         color: Colors.transparent,
         elevation: 0,
       ),
-      
       scaffoldBackgroundColor: AppColors.kPrimaryColor,
       appBarTheme: AppBarTheme(
         backgroundColor: Colors.transparent,
@@ -101,13 +102,11 @@ class AppTheme {
       ),
       inputDecorationTheme: const InputDecorationTheme(
         focusedBorder: OutlineInputBorder(
-                  borderSide:
-                      BorderSide(color: Colors.green, width: 3,strokeAlign: 5),
-                ),
-                enabledBorder:  OutlineInputBorder(
-                  borderSide:
-                      BorderSide(color: Colors.green, width: 3,strokeAlign: 5),
-                )
+          borderSide: BorderSide(color: Colors.green, width: 3, strokeAlign: 5),
+        ),
+        enabledBorder: OutlineInputBorder(
+          borderSide: BorderSide(color: Colors.green, width: 3, strokeAlign: 5),
+        ),
       ),
     );
   }
