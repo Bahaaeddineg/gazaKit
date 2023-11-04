@@ -12,6 +12,7 @@ require("dotenv").config();
 const app = express();
 app.use(express.json());
 app.use("/api/", UserRoutes);
+app.use(requireAuth)
 app.use("/api/", DuaaRoutes);
 app.use("/api/", BrandRoutes);
 app.use("/api/", CommentRoutes);
