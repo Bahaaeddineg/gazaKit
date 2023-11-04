@@ -18,7 +18,7 @@ class InformMeView extends StatelessWidget {
     const red = Color.fromARGB(255, 88, 8, 8);
 
     return Scaffold(
-       resizeToAvoidBottomInset: false,
+        resizeToAvoidBottomInset: false,
         backgroundColor: Colors.white,
         appBar: AppBar(
             title: Text(
@@ -189,31 +189,31 @@ class InformMeView extends StatelessWidget {
                             );
                           },
                           child: Container(
-                              padding: const EdgeInsets.symmetric(
-                                  vertical: 7, horizontal: 3),
-                              width: 120,
-                              height: 120,
-                              alignment: Alignment.center,
+                            padding: const EdgeInsets.symmetric(
+                                vertical: 7, horizontal: 3),
+                            width: 120,
+                            height: 120,
+                            alignment: Alignment.center,
+                            decoration: BoxDecoration(
+                                border:
+                                    Border.all(color: Colors.black, width: 2),
+                                borderRadius: BorderRadius.circular(20)),
+                            child: Container(
+                              height: 105,
+                              width: 110,
                               decoration: BoxDecoration(
-                                  border:
-                                      Border.all(color: Colors.black, width: 2),
-                                  borderRadius: BorderRadius.circular(20)),
-                              child: Container(
-                                height: 105,
-                                width: 110,
-                                decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(15),
-                                    border: Border.all(
-                                        color: Colors.black, width: 1)),
-                                child: ClipRRect(
                                   borderRadius: BorderRadius.circular(15),
-                                  child: const Image(
-                                    image:
-                                        AssetImage("assets/bassem_youcef.jpg"),
-                                    fit: BoxFit.cover,
-                                  ),
+                                  border: Border.all(
+                                      color: Colors.black, width: 1)),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(15),
+                                child: const Image(
+                                  image: AssetImage("assets/bassem_youcef.jpg"),
+                                  fit: BoxFit.cover,
                                 ),
-                              )),
+                              ),
+                            ),
+                          ),
                         ),
                         const SizedBox(
                           width: 20,
@@ -229,7 +229,7 @@ class InformMeView extends StatelessWidget {
                                   content:
                                       "An Israeli attack on the densely-populated Jabalia refugee camp in Gaza killed at least 50 people and injured many more, with search operations continuing.The bombing has sparked outrage across the Arab world and has been An Israeli attack on the densely-populated Jabalia refugee camp in Gaza killed at least 50 people and injured many more, with search operations continuing.The bombing has sparked outrage across the Arab world and has been An Israeli attack on the densely-populated Jabalia refugee camp in Gaza killed at least 50 people and injured many more, with search operations continuing.The bombing has sparked outrage across the Arab world and has been",
                                   imageURL:
-                                      "assets/329x185_cmsv2_5cad9e00-f2b8-5818-8e17-f79301434f17-7984782.webp",
+                                      "assets/asset2.webp",
                                 ),
                               ),
                             );
@@ -255,7 +255,7 @@ class InformMeView extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(15),
                                 child: const Image(
                                   image: AssetImage(
-                                      "assets/329x185_cmsv2_5cad9e00-f2b8-5818-8e17-f79301434f17-7984782.webp"),
+                                      "assets/asset1.jpg"),
                                   fit: BoxFit.cover,
                                 ),
                               ),
@@ -276,7 +276,7 @@ class InformMeView extends StatelessWidget {
                                   content:
                                       "The so-called censure resolution against Tlaib accused the Michigan representative of “anti-Semitic activity, sympathising with terrorist organisations and leading an insurrection at the United States Capitol Complex”, referring to a sit-in by Jewish activists inside Congress to demand a ceasefire in Gaza.The so-called censure resolution against Tlaib accused the Michigan representative of “anti-Semitic activity, sympathising with terrorist organisations and leading an insurrection at the United States Capitol Complex”, referring to a sit-in by Jewish activists inside Congress to demand a ceasefire in Gaza.The so-called censure resolution against Tlaib accused the Michigan representative of “anti-Semitic activity, sympathising with terrorist organisations and leading an insurrection at the United States Capitol Complex”, referring to a sit-in by Jewish activists inside Congress to demand a ceasefire in Gaza.The so-called censure resolution against Tlaib accused the Michigan representative of “anti-Semitic activity, sympathising with terrorist organisations and leading an insurrection at the United States Capitol Complex”, referring to a sit-in by Jewish activists inside Congress to demand a ceasefire in Gaza.The so-called censure resolution against Tlaib accused the Michigan representative of “anti-Semitic activity, sympathising with terrorist organisations and leading an insurrection at the United States Capitol Complex”, referring to a sit-in by Jewish activists inside Congress to demand a ceasefire in Gaza.",
                                   imageURL:
-                                      "assets/2023-11-03T164455Z_2068812990_RC2S54AVY0ET_RTRMADP_3_ISRAEL-PALESTINIANS-BLINKEN-1699053692.webp",
+                                      "assets/asset3.webp",
                                 ),
                               ),
                             );
@@ -302,7 +302,7 @@ class InformMeView extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(15),
                                   child: const Image(
                                     image: AssetImage(
-                                        "assets/2023-11-03T164455Z_2068812990_RC2S54AVY0ET_RTRMADP_3_ISRAEL-PALESTINIANS-BLINKEN-1699053692.webp"),
+                                        "assets/asset3.webp"),
                                     fit: BoxFit.cover,
                                   ),
                                 ),
