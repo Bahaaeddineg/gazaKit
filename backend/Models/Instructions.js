@@ -7,11 +7,11 @@ const Instructions=new schema({
     type:String
    },
    Indicator:{
-        Type:String
+   Type:String
    },
    Instructions:{
-    Type:Array,
-   }   
+      type:[String]
+   }
 },{timestamps:true})
 
 
